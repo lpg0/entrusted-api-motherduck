@@ -22,7 +22,7 @@ Authorization: Bearer <your-token>
 ## Query example
 
 ```bash
-curl -X POST https://your-app.up.railway.app/query \
+curl -X POST https://api-server-production-0c68.up.railway.app/query \
   -H "Authorization: Bearer <your-token>" \
   -H "Content-Type: application/json" \
   -d '{"sql": "SELECT * FROM leads LIMIT 10"}'
