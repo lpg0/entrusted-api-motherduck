@@ -1,0 +1,5 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+duckdb>=1.2.0
+sqlglot>=26.0.0
+pytz>=2024.1
